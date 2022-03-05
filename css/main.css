@@ -468,6 +468,14 @@ img {
   z-index: -1;
 }
 
+.containers {
+  width: 100%;
+  max-width: 1293px;
+  margin: 0 auto;
+  padding: 0 20px;
+  z-index: -1;
+}
+
 .button {
   padding: 0;
   margin: 0;
@@ -2403,7 +2411,6 @@ img {
 input {
   padding: 15px 200px 15px 20px;
   border: 2px solid #E5E5E5;
-  outline: none;
 }
 
 input[type="text"] {
