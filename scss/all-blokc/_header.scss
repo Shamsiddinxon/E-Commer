@@ -158,6 +158,9 @@
 }
 
 @media only screen and (max-width: 676px) {
+  body{
+    padding-top: 86px;
+  }
   .header {
     position: fixed;
     top: 0;
@@ -214,3 +217,4 @@
     }
   }
 }
+

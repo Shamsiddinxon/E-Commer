@@ -183,4 +183,28 @@
       }
   }
   
-  
+@media only screen and (max-width:528px) {
+  .home-products {
+    &__title {
+      font-size: 20px;
+  }
+
+    &__navlist{
+      display: none;      
+    }
+  }
+} 
+
+@media only screen and (max-width:490px) {
+  .home-hero__title {
+    font-size: 18px;
+    color: #40bfff;
+  }
+
+  .home-products {
+    &__list {
+      // display: grid;
+      grid-template-columns: 100%;     
+    }
+  }
+}
